@@ -125,3 +125,45 @@ footer {
   margin: 0 15px 15px 15px;
   position: relative;
 }
+
+.credit {
+  color: white;
+  text-align: center;
+  font-size: 0.6em;
+  border-bottom: solid 2px white;
+  line-height: 200%;
+}
+
+.social {
+  position: absolute;
+  bottom: 10%;
+  left: 2%;
+  width: 100%;
+}
+
+.icona {
+  float: left;
+  width: 30%;
+  height: 20px;
+  margin: 0 1%;
+  position: relative;
+  left: 10%
+}
+
+.icona.fb {
+  background-image: url(immagini/fb.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.icona.in {
+  background-image: url(immagini/insta.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.icona.gh {
+  background-image: url(immagini/github.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
